@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About Us</title>
+	<link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1xhp-dzuwAmtSOzMURsrCil9gdGsU5Go&callback=myMap"></script>
+    <script src="../js/googleMap.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<img src="../images/logo01.jpg" alt="" class="logo" width="490" height="195" />
+			</div>
+			<div id="menu">
+				<ul>
+					<li>
+						<a href="index.html" accesskey="1" title="">Homepage</a>
+					</li>
+					<li>
+						<a href="subscribe.html" accesskey="2" title="">Subscribe</a>
+					</li>
+					<li class="active">
+						<a href="#" accesskey="3" title="">About Us</a>
+					</li>
+					<li>
+						<a href="membership.html" accesskey="4" title="">Membership</a>
+					</li>
+					<li>
+						<a href="contacts.html" accesskey="5" title="">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner-wrapper">
+			<div id="banner" class="container">
+				<div class="title">
+					<h2>Our History</h2>
+					<span class="byline">Form 2006 until Now</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper">
+		<div id="three-column" class="container">
+			<div class="box1">
+				<h3>2006 - 2010</h3>
+				<p>Our Track and Field Club (TFC) founded by Stoil Filiov at Double Oaks and Earle Village Recreation Centers. Anthony James
+					(Coach AJ) named Head Coach.TFC hosted its first developmental meet at West Charlotte High School; 300 athletes participated.</p>
+			</div>
+			<div class="box3">
+				<h3>2010 - 2014</h3>
+				<p>TFC voiced its support to the Mecklenburg Board of County Commissioners for the construction of an outdoor track at Johnson
+					C. Smith University. November 2010, Mecklenburg County park bonds were approved for construction of the track and field
+					facility.TFC created its own Automatic Timing and Meet Management Team to time and manage high school, college and youth
+					developmental meets, including the Jim Law Invitational.</p>
+			</div>
+			<div class="box2">
+				<h3>2014 - 2016</h3>
+				<p>TJohnson C. Smith University’s Irwin Belk Track and Field Complex opens. Becomes the official practice site for TFC.
+					TFC hosted the Bulgarian Youth Outdoor Track and Field Championships at Sofia in June. Over 2,060 athletes participated.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="form-main-calc">
+		<div id="form-div">
+			<h1 id="header-1">Calculate your performance compare to World Record</h1>
+			<form class="form" id="form">
+				<h2>Events:</h2>
+				<div class="column">
+					<h3>
+						<label class="spr">Sprints</label>
+					</h3>
+				</div>
+				<div class="column-2">
+					<select id="sprint" name="sprint">
+						<option value="Event">Options</option>
+						<option value="100">100m</option>
+						<option value="200">200m</option>
+						<option value="400">400m</option>
+					</select>
+				</div>
+				<div class="column">
+					<h3>
+						<label class="jp">Jumps</label>
+					</h3>
+				</div>
+				<div class="column-2">
+					<select id="jump" name="jump">
+						<option value="Event">Options</option>
+						<option value="Long Jump">Long Jump</option>
+						<option value="High Jump">High Jump</option>
+					</select>
+				</div>
+				<h2 class="personal-info">Personal information:</h2>
+				<div>
+					<h3>
+						<label>Sex:</label>
+					</h3>
+				</div>
+				<div>
+					<input type="radio" id="male" name="gender" value="male"> Male
+					<input type="radio" id="female" name="gender" value="female"> Female
+				</div>
+				<div>
+					<h3>
+						<label for="result">Time/distance/height:</label>
+					</h3>
+				</div>
+				<div>
+					<input type="text" id="result" name="result" placeholder="Result">
+				</div>
+				<div>
+					<h3>
+						<label for="perf">Performance compare to WR %:</label>
+					</h3>
+				</div>
+				<div>
+					<input type="text" id="perf" name="perf" readonly>
+				</div>
+				<div>
+					<h4 id="header-4">
+						>100% = World record level >90% = World class >80% = National class >70% = Regional class >0% = An Athlete
+					</h4>
+				</div>
+				<div>
+					<input type="button" value="Calculate" id="button-calc" />
+					<input type="reset" value="Reset" id="button-reset" />
+					<div class="ease"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer id="copyright" class="footer-distributed">
+		<div class="footer-left">
+			<h2>Keep Connected</h2>
+			<ul>
+				<li>
+					<a href="#" class="fa fa-facebook"></a>
+					<span>Like us on Facebook</span>
+				</li>
+				<li>
+					<a href="#" class="fa fa-twitter"></a>
+					<span>Follow us on Twitter</span>
+				</li>
+				<li>
+					<a href="#" class="fa fa-google"></a>
+					<span>Add us on Google Plud</span>
+				</li>
+				<li>
+					<a href="#" class="fa fa-linkedin"></a>
+					<span>Follow us on LikedIn</span>
+				</li>
+				<li>
+					<a href="#" class="fa fa-instagram"></a>
+					<span>Follow us on Instagram</span>
+				</li>
+			</ul>
+		</div>
+		<div class="footer-center">
+			<h2>Contact Information</h2>
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p>
+					<span>31 Evlogi Georgiev</span> Sofia, Bulgaria</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1 555 123456</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p>
+					<a href="#">support@trackandfield.com</a>
+				</p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<h2>Find Us on Map</h2>
+			<div id="map" style="width:350px;height:250px;background:yellow"></div>
+		</div>
+		<p>&copy; Stoil Filiov. All rights reserved. | Photos by
+			<a href="http://www.google.com/">Google</a> | Design by
+			<a>Stoil Filiov</a>.</p>
+	</footer>
+	<script src="../js/myCalc.js" type="text/javascript"></script>
+</body>
+
+</html>

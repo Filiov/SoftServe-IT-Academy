@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Payment</title>
+  <link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1xhp-dzuwAmtSOzMURsrCil9gdGsU5Go&callback=myMap"></script>
+  <script src="../js/googleMap.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="header-wrapper">
+    <div id="header" class="container">
+      <div id="logo">
+        <img src="../images/logo01.jpg" alt="" class="logo" width="490" height="195" />
+      </div>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="index.html" accesskey="1" title="">Homepage</a>
+          </li>
+          <li class="active">
+            <a href="#" accesskey="2" title="">Subscribe</a>
+          </li>
+          <li>
+            <a href="about.html" accesskey="3" title="">About Us</a>
+          </li>
+          <li>
+            <a href="membership.html" accesskey="4" title="">Membership</a>
+          </li>
+          <li>
+            <a href="contacts.html" accesskey="5" title="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="banner-wrapper">
+      <div id="banner" class="container">
+        <div class="title">
+          <h2>Subscribe</h2>
+          <span class="byline">Payment details</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="form-main">
+    <div id="form-div">
+      <form class="form" id="form">
+        <p>
+          <img class="payment" alt="" src="https://stockstotrade.herokuapp.com/assets/Accepted-Payments-3d95f431a97a08d2f0292822865f1013.png">
+        </p>
+        <p class="name">
+          <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name on Card"
+            id="name" />
+        </p>
+        <p class="card-number">
+          <input type="text" name="card-number" class="validate[required,length[0,16]] feedback-input" id="card-number" placeholder="0000-0000-0000-0000"
+          />
+        </p>
+        <p class="date">
+          <input name="date" type="text" class="validate[required,custom[0,10]] feedback-input" id="date" placeholder="Exp. Date MM/YYYY"
+          />
+        </p>
+        <p class="security">
+          <input type="text" name="cvv" class="validate[required,length[0,3]] feedback-input" id="security" placeholder="CVV Code"
+          />
+        </p>
+        <p class="email">
+          <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+        </p>
+        <div class="submit">
+          <input type="submit" value="PAY NOW" id="button-yellow" />
+          <div class="ease"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer id="copyright" class="footer-distributed">
+    <div class="footer-left">
+      <h2>Keep Connected</h2>
+      <ul>
+        <li>
+          <a href="#" class="fa fa-facebook"></a>
+          <span>Like us on Facebook</span>
+        </li>
+        <li>
+          <a href="#" class="fa fa-twitter"></a>
+          <span>Follow us on Twitter</span>
+        </li>
+        <li>
+          <a href="#" class="fa fa-google"></a>
+          <span>Add us on Google Plud</span>
+        </li>
+        <li>
+          <a href="#" class="fa fa-linkedin"></a>
+          <span>Follow us on LikedIn</span>
+        </li>
+        <li>
+          <a href="#" class="fa fa-instagram"></a>
+          <span>Follow us on Instagram</span>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-center">
+      <h2>Contact Information</h2>
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p>
+          <span>31 Evlogi Georgiev</span> Sofia, Bulgaria</p>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+359 555 123456</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p>
+          <a href="#">support@trackandfield.com</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <h2>Find Us on Map</h2>
+      <div id="map" style="width:350px;height:250px;background:yellow"></div>
+    </div>
+    <p>&copy; Stoil Filiov. All rights reserved. | Photos by
+      <a href="http://www.google.com/">Google</a> | Design by
+      <a>Stoil Filiov</a>.</p>
+  </footer>
+
+</body>
+
+</html>
